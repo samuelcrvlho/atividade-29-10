@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(102, 156, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(229, 238, 232);
+
+}
+/*cabeçalho*/
+header{
+    background-color: rgb(28, 100, 105);
+    color: rgb(236, 245, 243);
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+header p{
+    margin-top: 5px;
+}
+main{
+    width: 800px;
+    margin: 40px auto;
+}
+.login{
+    background-color: rgb(22, 81, 104);
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+.login h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+.descricao{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: rgb(20, 38, 71);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(15, 15, 136);
+}
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.cadastro a {
+    color: rgb(182, 193, 202);
+    text-decoration: none;
+
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    color: #354888;
+    font-size: 13px;
+}
